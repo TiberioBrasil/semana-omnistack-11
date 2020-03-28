@@ -15,7 +15,9 @@
   - [Backend](#backend)
   - [Frontend](#frontend)
   - [Mobile](#mobile)
-  - [Agradecimentos](#agradecimentos)
+- [TDD - Desenvolvimento Orientado por Testes (Test Driven Development)](#tdd---desenvolvimento-orientado-por-testes-test-driven-development)
+- [Ferramentas e Bibliotecas Utilizadas](#ferramentas-e-bibliotecas-utilizadas)
+- [Agradecimentos](#agradecimentos)
 
 <br />
 
@@ -25,7 +27,7 @@ Be The Hero foi desenvolvido na **Semana Omnistack 11.0**, promovida pela **[Roc
 <br />
 Esta ferramenta tem o intuito de ligar ONG's à financiadores. Através delas as ONG's poderão postar os casos e valores para solucioná-los. Os financiadores poderão ver todos os casos e entrar em contato com as ONG's com o intuito de financiá-los.
 <br />
-Na ferramenta estão inclusos o Backend ([Express](https://github.com/expressjs/express) + [SQLite](https://github.com/sqlite/sqlite)), Frontend ([ReactJS](https://github.com/facebook/react)) e Mobile ([React Native](https://github.com/facebook/react-native)).
+Na ferramenta estão inclusos o Backend ([ExpressJS](https://github.com/expressjs/express) + [SQLite](https://github.com/sqlite/sqlite)), Frontend ([ReactJS](https://github.com/facebook/react)) e Mobile ([React Native](https://github.com/facebook/react-native)).
 
 <br />
 
@@ -89,7 +91,36 @@ Não trataremos neste README da instalação de ferramentas como: NodeJS, Git,
 
 <br />
 
-## Agradecimentos
+# TDD - Desenvolvimento Orientado por Testes (Test Driven Development)
+
+Foram realizados teste sde integrações em todos os endpoints da ferramenta. Para ajudar na criação de dados aleatórios doi utilizaod a biblioteca [Faker](https://github.com/marak/Faker.js).
+
+<br />
+
+# Ferramentas e Bibliotecas Utilizadas
+
+- Ferramentas
+  - [GitHub](https://github.com/)
+  - [GitLab](https://gitlab.com/)
+  - [Visual Studio Code](https://code.visualstudio.com/)
+  - [Yarn](https://yarnpkg.com/)
+  - [Postman](https://www.postman.com/)
+  
+<br />
+
+- Bibliotecas
+  - [ExpressJS](https://github.com/expressjs/express)
+  - [Knex](https://github.com/knex/knex)
+  - [SQLite](https://github.com/sqlite/sqlite)
+  - [Faker](https://github.com/marak/Faker.js)
+  - [ExpressJS/Cors](https://github.com/expressjs/cors)
+  - [React](https://github.com/facebook/react)
+  - [React Native](https://github.com/facebook/react-native)
+  - [Axios](https://github.com/axios/axios)
+
+<br />
+
+# Agradecimentos
 
  Muito obrigado à Rocketseat por sempre estar disponibilizando conteúdo atualizado totalmente grátis. Aconselho à todos estarem sempre de olho nas Semanas Omnistack e também no Bootcamp Go Stack. Além disso aconselho sempre à estarem presentes no Discord da comunidade.
 
