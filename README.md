@@ -9,8 +9,6 @@
 </div>
 
 <br />
-<br />
-
 
 - [Overview](#overview)
 - [Instalação Geral](#instala%c3%a7%c3%a3o-geral)
@@ -19,7 +17,6 @@
   - [Mobile](#mobile)
   - [Agradecimentos](#agradecimentos)
 
-<br />
 <br />
 
 # Overview
@@ -30,7 +27,6 @@ Esta ferramenta tem o intuito de ligar ONG's à financiadores. Através delas as
 <br />
 Na ferramenta estão inclusos o Backend ([Express](https://github.com/expressjs/express) + [SQLite](https://github.com/sqlite/sqlite)), Frontend ([ReactJS](https://github.com/facebook/react)) e Mobile ([React Native](https://github.com/facebook/react-native)).
 
-<br />
 <br />
 
 # Instalação Geral
@@ -43,18 +39,15 @@ Não trataremos neste README da instalação de ferramentas como: NodeJS, Git,
     `$ git clone https://gitlab.com/tiberiobrasil/semana-omnistack-11.git`
 
 <br />
-<br />
 
 ## Backend
 
 1. Acesse a pasta do backend da sua aplicação;
-   
 2. Execue o comando abaixo para instalar todas as dependência do projeto:
 
     `yarn`
    
 3. Crie um arquivo `.env` na raiz do projeto backend de acordo com o arquivo `.env.example`
-
 4. Inicie o projeto utilizando o comando:
 
     `yarn start`
@@ -62,12 +55,10 @@ Não trataremos neste README da instalação de ferramentas como: NodeJS, Git,
 5. Você pode testar as rotas da aplicação utilizando o arquivo do [Postman](https://www.postman.com/) que está na pasta raiz do projeto backend.
 
 <br />
-<br />
 
 ## Frontend
 
 1. Acesse a pasta do frontend da sua aplicação;
-
 2. Execue o comando abaixo para instalar todas as dependência do projeto:
 
     `yarn`
@@ -76,13 +67,11 @@ Não trataremos neste README da instalação de ferramentas como: NodeJS, Git,
 
     `yarn start`
 
-<br />
 <br />
 
 ## Mobile
 
 1. Acesse a pasta do frontend da sua aplicação;
-
 2. Execue o comando abaixo para instalar todas as dependência do projeto:
 
     `yarn`
@@ -91,13 +80,13 @@ Não trataremos neste README da instalação de ferramentas como: NodeJS, Git,
 
     `yarn start`
 
-4. Será aberta uma página no navegador no endereço `http://localhost:19002/`
+4. Será aberta uma página no navegador no endereço
    
-5. Baixe o aplicativo Expo no Google Play ou Apple Store, dependendo do seu aplicativo e escaneie o QCode contido nele.
+    `http://localhost:19002/`
 
+5. Baixe o aplicativo Expo no Google Play ou Apple Store, dependendo do seu aplicativo e escaneie o QCode contido nele.
 6. Você conseguirá acessar a versão mobile do projeto através do seu celular.
 
-<br />
 <br />
 
 ## Agradecimentos
