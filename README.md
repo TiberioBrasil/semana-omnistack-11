@@ -94,7 +94,7 @@ Não trataremos neste README da instalação de ferramentas como: NodeJS, Git,
  Muito obrigado à Rocketseat por sempre estar disponibilizando conteúdo atualizado totalmente grátis. Aconselho à todos estarem sempre de olho nas Semanas Omnistack e também no Bootcamp Go Stack. Além disso aconselho sempre à estarem presentes no Discord da comunidade.
 
 - [Site Rocketseat](https://rocketseat.com.br/)
-  - [Cursos Starter (100& gratuitos)](https://rocketseat.com.br/starter)
+  - [Cursos Starter (100% gratuitos)](https://rocketseat.com.br/starter)
   - [Bootcamp GoStack](https://rocketseat.com.br/gostack)
 - [Discord Rocketseat](https://discordapp.com/invite/gCRAFhc)
 
