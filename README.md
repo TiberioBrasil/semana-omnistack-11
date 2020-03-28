@@ -36,7 +36,7 @@ Não trataremos neste README da instalação de ferramentas como: NodeJS, Git,
 1. Crie uma pasta para o seu projeto;
 2. Dentro da pasta execute o comando para clonar o repositório:
    
-    `$ git clone https://gitlab.com/tiberiobrasil/semana-omnistack-11.git`
+    `$ git clone https://github.com/TiberioBrasil/semana-omnistack-11.git`
 
 <br />
 
