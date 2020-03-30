@@ -17,6 +17,7 @@
   - [Mobile](#mobile)
 - [Publicando a Ferramenta no Heroku](#publicando-a-ferramenta-no-heroku)
   - [Backend](#backend-1)
+  - [Frontend](#frontend-1)
 - [TDD - Desenvolvimento Orientado por Testes (Test Driven Development)](#tdd---desenvolvimento-orientado-por-testes-test-driven-development)
 - [Ferramentas e Bibliotecas Utilizadas](#ferramentas-e-bibliotecas-utilizadas)
 - [Agradecimentos](#agradecimentos)
@@ -157,6 +158,63 @@ Não trataremos neste README da instalação de ferramentas como: NodeJS, Git,
     Faça o push do seu código para o Heroku dizendo para utilizar apenas a pasta backend.
 
     `$ git subtree push --prefix backend heroku master`
+
+    Pronto, você já pode acessar a URL informada no final da resposta do passo anterior.
+
+<br />
+
+## Frontend
+
+1.  No seu Dashboard, crie um novo app, por exemplo:
+
+    `omini11-front`
+
+    _O nome deve ser único. Em região selecione "United States"._
+
+2.  Na aba `Deploy`, na opção `Deployment method` selecione `GitHub`;
+
+3.  Faça o login na sua conta do GitHub;
+
+4.  Em `repo-name` coloque o nome do repositório que você fez o Fork. Por exemplo:
+
+    `semana-omnistack-11`
+
+5.  Clique no botão `Connect` para se conectar ao repositório.
+
+6.  Na aba `Settings`, na opção `Config Vars`, clique no botão `Reveal Config Vars` e insira os valor abaixo:
+
+         KEY:     REACT_APP_API_URL
+         VALUE:   A url do seu APP de Backend
+
+         Por exemplo: https://omni11-back.herokuapp.com
+
+7.  Na aba `Settings`, na opção `Buildpacks`, clique no botão `Add` e insira os valor abaixo:
+
+    `mars/create-react-app`
+
+8.  Baixe o repositório para seu ambiente local (caso não tenha feito no passo anterior).
+
+    Crie uma pasta para o projeto
+
+    `$ mkdir semana-omnistack-11`
+
+    Acesse a pasta criada
+
+    `$ cd semana-oministack-11`
+
+    Clone o repositório
+
+    `$ git clone git@githubcom:TiberioBrasilsemana-omnistack-11.git .`
+
+    Sete o repositório base local como o remoto do Heroku. OBS: você deve estar na raiz do projeto (fora das pastas backend, frontend e mobile).
+
+    `$ heroku git:remote -a omini11-front`
+
+    _Onde `omini11-front` é o nome do seu app n Heroku_
+
+    Faça o push do seu código para o Heroku dizendo para utilizar apenas a pasta frontend.
+
+    `$ git subtree push --prefix frontend heroku master`
 
     Pronto, você já pode acessar a URL informada no final da resposta do passo anterior.
 
