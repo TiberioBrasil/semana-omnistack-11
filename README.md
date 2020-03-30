@@ -16,7 +16,7 @@
   - [Frontend](#frontend)
   - [Mobile](#mobile)
 - [Publicando a Ferramenta no Heroku](#publicando-a-ferramenta-no-heroku)
-- [Backend](#backend-1)
+  - [Backend](#backend-1)
 - [TDD - Desenvolvimento Orientado por Testes (Test Driven Development)](#tdd---desenvolvimento-orientado-por-testes-test-driven-development)
 - [Ferramentas e Bibliotecas Utilizadas](#ferramentas-e-bibliotecas-utilizadas)
 - [Agradecimentos](#agradecimentos)
@@ -111,7 +111,7 @@ Não trataremos neste README da instalação de ferramentas como: NodeJS, Git,
 
    `$ heroku login`
 
-# Backend
+## Backend
 
 1.  No seu Dashboard, crie um novo app, por exemplo:
 
