@@ -8,6 +8,10 @@ const SessionController = require("./controllers/SessionController");
 
 const routes = express.Router();
 
+routes.get("/", (req, res) => {
+  res.json({ ping: "pong" });
+});
+
 routes.post(
   "/sessions",
   celebrate({
