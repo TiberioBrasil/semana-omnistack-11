@@ -15,6 +15,8 @@
   - [Backend](#backend)
   - [Frontend](#frontend)
   - [Mobile](#mobile)
+- [Publicando a Ferramenta no Heroku](#publicando-a-ferramenta-no-heroku)
+- [Backend](#backend-1)
 - [TDD - Desenvolvimento Orientado por Testes (Test Driven Development)](#tdd---desenvolvimento-orientado-por-testes-test-driven-development)
 - [Ferramentas e Bibliotecas Utilizadas](#ferramentas-e-bibliotecas-utilizadas)
 - [Agradecimentos](#agradecimentos)
@@ -88,6 +90,75 @@ Não trataremos neste README da instalação de ferramentas como: NodeJS, Git,
 
 5. Baixe o aplicativo Expo no Google Play ou Apple Store, dependendo do seu aplicativo e escaneie o QCode contido nele.
 6. Você conseguirá acessar a versão mobile do projeto através do seu celular.
+
+<br />
+
+# Publicando a Ferramenta no Heroku
+
+1. Acesse o repositório e dê um Fork para a sua conta (_para publicar no Heroku você precisa ter o repositório na sua conta_)
+
+   `https://github.com/TiberioBrasil/semana-omnistack-11`
+
+2. Acesse o site do Heroku, crie uma conta caso não tenha e faça o login
+
+   `https://www.heroku.com/`
+
+3. Instale o `heroku-cli` na sua máquina:
+
+   `https://devcenter.heroku.com/articles/heroku-cli`
+
+4. Faça o login, utilizando as suas credenciais, usando o comando:
+
+   `$ heroku login`
+
+# Backend
+
+1.  No seu Dashboard, crie um novo app, por exemplo:
+
+    `omini11-back`
+
+    _O nome deve ser único. Em região selecione "United States"._
+
+2.  Na aba `Deploy`, na opção `Deployment method` selecione `GitHub`;
+
+3.  Faça o login na sua conta do GitHub;
+
+4.  Em `repo-name` coloque o nome do repositório que você fez o Fork. Por exemplo:
+
+    `semana-omnistack-11`
+
+5.  Clique no botão `Connect` para se conectar ao repositório.
+
+6.  Na aba `Settings`, na opção `Config Vars`, clique no botão `Reveal Config Vars` e insira os valor abaixo:
+
+         KEY:     NODE_ENV
+         VALUE:   production
+
+7.  Baixe o repositório para seu ambiente local.
+
+    Crie uma pasta para o projeto
+
+    `$ mkdir semana-omnistack-11`
+
+    Acesse a pasta criada
+
+    `$ cd semana-oministack-11`
+
+    Clone o repositório
+
+    `$ git clone git@githubcom:TiberioBrasilsemana-omnistack-11.git .`
+
+    Sete o repositório base local como o remoto do Heroku. OBS: você deve estar na raiz do projeto (fora das pastas backend, frontend e mobile).
+
+    `$ heroku git:remote -a omini11-back`
+
+    _Onde `omini11-back` é o nome do seu app n Heroku_
+
+    Faça o push do seu código para o Heroku dizendo para utilizar apenas a pasta backend.
+
+    `$ git subtree push --prefix backend heroku master`
+
+    Pronto, você já pode acessar a URL informada no final da resposta do passo anterior.
 
 <br />
 
